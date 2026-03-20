@@ -1,0 +1,12 @@
+# Exclude all files by default
+*
+
+# Include the github skill directory and all its contents recursively
+!github/
+!github/**/*
+
+# Include the .gitignore file itself
+!.gitignore
+
+# Include README.md
+!README.md
